@@ -1,5 +1,9 @@
 .idea/
 .codeintel/
 .idlerc/
+__pycache__/
+word2number_es.egg-info/
+.ipynb_checkpoints/
 .pypirc
 *.pyc
+*.ipynb
