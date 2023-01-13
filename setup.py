@@ -12,7 +12,7 @@ def open_file(fname):
 setup(
   name = 'word2number_es',
   packages = ['word2number_es'],  # this must be the same as the name above
-  version = '1.0.0',
+  version = '1.0.1',
   license=open('LICENSE.txt').read(),
   description = 'Convert number words (eg. veintiuno) to numeric digits (spanish)',
   author = 'Neuri',
@@ -24,5 +24,5 @@ setup(
       'Programming Language :: Python'
   ],
   long_description=open_file('README.rst').read(),
-  python_requires = ">=3.6"
+  long_description_content_type="text/markdown",
 )
